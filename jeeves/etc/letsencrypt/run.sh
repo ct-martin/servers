@@ -1,0 +1,1 @@
+./certbot-auto run -a manual -i apache --preferred-challenges=dns --manual-auth-hook /etc/letsencrypt/authenticator.sh --manual-cleanup-hook /etc/letsencrypt/cleanup.sh -d cloud.i.ctmartin.me,conjure.i.ctmartin.me,ci.i.ctmartin.me,git.i.ctmartin.me,collabora.i.ctmartin.me
